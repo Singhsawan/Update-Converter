@@ -7,11 +7,13 @@ I Am %s , Bulk Link Converter Bot. I Can Convert Links Directly From Your urllin
 
 Just Send me Any Post with Other Links. I will Convert Those Links Using Your API and Send them Back To You
 
-1. Go To 👉 https://urllinkshort.in/member/tools/api
+1. SignUp On urllinkshort 👉 https://urllinkshort.in/ref/Sawan09
 
-2. Than Copy API Key
+2. Go To 👉 https://urllinkshort.in/member/tools/api
 
-3. Than Type /shortener_api than give a single space and than paste your API Key (see example to understand more...)
+3. Than Copy API Key
+
+4. Than Type /shortener_api than give a single space and than paste your API Key (see example to understand more...)
 /shortener_api(space)API Key
 (See Example.👇)
 Example: `/shortener_api cbd63775f798fe0e58c67a56e6ce8b70c495cda4`
