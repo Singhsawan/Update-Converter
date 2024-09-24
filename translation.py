@@ -3,11 +3,11 @@ from config import BASE_SITE
 
 START_MESSAGE = '''😎**Hello, {}
 
-I Am %s , Bulk Link Converter Bot. I Can Convert Links Directly From Your zxlink.in Account,
+I Am %s , Bulk Link Converter Bot. I Can Convert Links Directly From Your Tryshort.in Account,
 
 Just Send me Any Post with Other Links. I will Convert Those Links Using Your API and Send them Back To You
 
-1. Go To 👉 https://zxlink.in/member/tools/api
+1. Go To 👉 https://Tryshort.in/member/tools/api
 
 2. Than Copy API Key
 
@@ -22,7 +22,7 @@ Example: `/shortener_api cbd63775f798fe0e58c67a56e6ce8b70c495cda4`
 
 ➕ Hit 👉 /header To Get Help About Adding your Custom Footer to bot.**
 
-If You Want Any **Other Shortner** Link Converter Bot Instead Of zxlink.in than **contact** at 👉 @J_shree_ram (all **shortners** support available.)
+If You Want Any **Other Shortner** Link Converter Bot Instead Of Tryshort.in than **contact** at 👉 @arbonx (all **shortners** support available.)
 ''' % BASE_SITE
 
 HELP_MESSAGE = '''
@@ -41,7 +41,7 @@ Helpful commands:
 - /start: Starts me! You've probably already used this.
 - /help: Sends this message; I'll tell you more about myself!
 
-If you have any bugs or questions on how to use me, contact to @J_shree_ram.
+If you have any bugs or questions on how to use me, contact to @arbonx.
 
 Below are some features I provide'''
 
@@ -53,7 +53,7 @@ ABOUT_TEXT = """
     
 `📝 Language:` [Python 3](https://www.python.org/)
 `🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)
-`👨‍💻 Developer:` [Dev](t.me/J_shree_ram)
+`👨‍💻 Developer:` [Dev](t.me/arbonx)
 `📢 Support:` {}
 """
 
@@ -69,7 +69,7 @@ HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([[InlineKeyboardButton('Home', callback_data='start_command'), InlineKeyboardButton('Help', callback_data='help_command')], [InlineKeyboardButton('Close', callback_data='delete')]])
 
 
-START_MESSAGE_REPLY_MARKUP = InlineKeyboardMarkup([[InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ ᴢxʟɪɴᴋ ᴀᴘɪ ↗️', url=f'https://{BASE_SITE}/member/tools/api')]])
+START_MESSAGE_REPLY_MARKUP = InlineKeyboardMarkup([[InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ Tryshort ᴀᴘɪ ↗️', url=f'https://{BASE_SITE}/member/tools/api')]])
 
 
 
