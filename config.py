@@ -13,7 +13,7 @@ API_ID = int(os.environ.get("API_ID", 21748181))
 API_HASH = os.environ.get("API_HASH", 'b1d962414e186e0778911f3183feac33')
 BOT_TOKEN = os.environ.get("BOT_TOKEN", '6806119336:AAHPgsNAm6muevQanFDVxqKRQ-JFHlsrx5c')
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split(",")] if os.environ.get("ADMINS") else []
-OWNER_ID = int(os.environ.get("OWNER_ID", "5651594253 6201745002"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5651594253"))
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "ziplinker")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://kandudon598:sawan@cluster0.z3nez.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 # Optionnal variables
